@@ -7,13 +7,13 @@ from sklearn.externals import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 
-app = Flask(__name__)
+ml_app = Flask(__name__)
 
-@app.route('/')
+@ml_app.route('/')
 def home():
 	return render_template('home.html')
 
-@app.route('/predict',methods=['POST'])
+@ml_app.route('/predict',methods=['POST'])
 def predict():
 	df= pd.read_csv("./data/processed/YoutubeSpamMergedData.csv")
 	df_data = df[["CONTENT","CLASS"]]
@@ -44,4 +44,4 @@ def predict():
 
 
 #if __name__ == '__main__':
-app.run()
+ml_app.run()
