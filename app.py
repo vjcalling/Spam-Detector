@@ -43,5 +43,5 @@ def predict():
 
 
 
-#if __name__ == '__main__':
-ml_app.run()
+if __name__ == '__main__':
+	ml_app.run()
