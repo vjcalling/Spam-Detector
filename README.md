@@ -19,4 +19,22 @@ f. Procfile, requirements.txt, runtime.txt: these files are used to deploy the a
 g. app.py (starting point)  
 
 
+# Application Screenshots  
 
+**Main Application**  
+![Alt text](./screenshots/main_app.png?raw=true "Home Page")  
+
+**Entering a spam comment**  
+![Alt text](./screenshots/spam_comment.png?raw=true)  
+
+
+**Classifying the comment as spam**  
+![Alt text](./screenshots/classfied_as_spam.png?raw=true)  
+
+
+**Entering a valid comment**  
+![Alt text](./screenshots/valid_comment.png?raw=true)  
+
+
+**Classifying the comment as not a spam**  
+![Alt text](./screenshots/not_a_spam.png?raw=true)  
