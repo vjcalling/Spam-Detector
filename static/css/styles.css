@@ -11,7 +11,7 @@ body{
 }
 
 header{
-	background:#03A9F4;#35434a;
+	background:#abdef4;#35434a;
 	border-bottom:#448AFF 3px solid;
 	height:120px;
 	width:100%;
@@ -21,7 +21,7 @@ header{
 
 .main-header{
 			text-align:center;
-			background-color: blue;
+			background-color: green;
 			height:100px;
 			width:100%;
 			margin:0px;
@@ -31,17 +31,18 @@ header{
 	font-size:30px;
 	color: #fff;
 	margin: 10px;
+	text-align: center;
 }
 
 header h2{
-	text-align:center;
+	text-align:left;
 	color:#fff;
 
 }
 
 
 
-.btn-info {background-color: #2196F3;
+.btn-info {background-color: #f6f7f2;
 	height:40px;
 	width:100px;} /* Blue */
 .btn-info:hover {background: #0b7dda;}
